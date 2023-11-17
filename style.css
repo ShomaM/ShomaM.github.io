@@ -1,0 +1,540 @@
+ *{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+
+.page-header{
+	background-image:url(beach.jpg);
+	background-size:cover;
+	backgorund-position:center;
+	padding-top:80px;
+	padding-bottom:200px;
+	
+	
+
+}
+.container{
+	width: 90%;
+	max-width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.header-parent{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	max-width:90%;
+}
+
+.hamburger{
+
+	display:none;
+
+}
+
+.fa-bars{
+
+font-size:40px;
+color:white}
+
+.logo-holder{
+	
+	
+	}
+
+.menu-holder{
+
+}
+
+.header-list{
+	display: flex;
+	list-style: none;
+	gap: 40px;
+	margin-right:40px;
+	
+	}
+
+.header-list a:hover{
+	font-size:19px;
+	color:yellow;
+
+
+}
+
+
+.header-list a{
+	color: white;
+	text-decoration: none;
+	font-family:sans-serif;
+}
+
+.slogan{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	text-align:center;
+}
+
+.slogan h1{
+   color:white;
+   font-family:cursive;
+   font-size:40px;
+   margin-bottom:20px;
+
+}
+
+.bigdestinations{
+	background-color:lightblue;
+	padding:30px 0;
+	padding-bottom:100px;
+	
+	
+}
+
+.parent{
+	
+	margin-top:-120px;
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:30px;
+	
+	}
+.SpainBig{
+	
+	background-image:url(spain.jpg);
+	background-size: cover;
+	padding-top:120px;
+	padding-bottom:120px;
+	border:15px solid white;
+	text-align: center;
+}
+
+
+.SpainSmall{
+	
+	background-image:url(spain.jpg);
+	background-size: cover;
+	font-family: 'Dancing Script', cursive;
+	padding-top:80px;
+	padding-bottom:80px;
+	border:10px solid white;
+	text-align: center;
+	font-size: 30px;
+	color:white;
+}
+
+.SpainSmall a{
+	text-decoration:none;
+	color:white;
+	}
+
+.SpainBig a{
+	text-decoration:none ;
+	font-family: 'Dancing Script', cursive;
+	font-size:60px;
+	color:white;
+
+}
+
+.CubaBig{
+	
+	background-image:url(Cuba.jpg);
+	background-size: cover;
+	padding-top:120px;
+	padding-bottom:120px;
+	border:15px solid white;
+	font-family: 'Dancing Script', cursive;
+	font-size:40px;
+	color:white;
+	text-align: center;
+}
+
+
+
+.CubaSmall{
+	
+	background-image:url(Cuba.jpg);
+	background-size: cover;
+	padding-top:80px;
+	padding-bottom:80px;
+	border:10px solid white;
+	font-family: 'Dancing Script', cursive;
+	font-size:30px;
+	color:white;
+	text-align: center;
+}
+
+.CubaSmall a{
+	text-decoration:none;
+	color:white;
+	}
+
+.CubaBig a{
+	text-decoration:none ;
+	font-family: 'Dancing Script', cursive;
+	font-size:60px;
+	color:white;
+}
+
+.GreeceBig{
+	
+	background-image:url(Greece.jpg);
+	background-size: cover;
+	padding-top:120px;
+	padding-bottom:120px;
+	border:15px solid white;
+	font-family: 'Dancing Script', cursive;
+	font-size:60px;
+	color:white;
+	text-align: center;
+}
+.GreeceSmall{
+	
+	background-image:url(Greece.jpg);
+	background-size: cover;
+	padding-top:80px;
+	padding-bottom:80px;
+	border:10px solid white;
+	font-family: 'Dancing Script', cursive;
+	font-size:30px;
+	color:white;
+	text-align: center;
+}
+
+.GreeceSmall a{
+	text-decoration:none;
+	color:white;
+	}
+
+.GreeceBig a{
+	text-decoration:none ;
+	font-family: 'Dancing Script', cursive;
+	font-size:60px;
+	color:white;
+}
+
+
+.SpainBig a:hover{
+	font-size:70px;
+	color:lightblue;}
+
+.CubaBig a:hover{
+	font-size:70px;
+	color:lightblue;}
+
+
+.GreeceBig a:hover{
+	font-size:70px;
+	color:lightblue;}
+
+
+.parent1{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap:22px;
+	}	
+	
+
+.destinations2{
+
+	background-image:url(Islands.jpg);
+	background-size:cover;
+	padding-top:200px;
+	padding-bottom:200px;
+
+
+
+}
+
+.Excursions{
+	background-color:lightgrey;
+	padding-top:40px;
+	padding-bottom:40px;
+	
+}
+
+.parentExcursions{
+		display:grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap:20px;
+		
+
+
+}
+
+.ExcursionsText{
+
+	border:15px solid white;
+	text-align: center;
+	font-family: cursive;
+	background-color:lightgrey;
+	padding-top:5px;
+	padding-bottom:5px;
+	
+}
+
+.ExcursionsText p{
+	margin-top:10px;
+	font-size: 17px;
+}
+
+.ExcursionsText h2{
+	margin-top:5px;
+	font-size: 25px;
+	color:darkcyan;
+
+}
+
+
+.ExcursionCorfu{
+	background-image:url(corfu.jpg);
+	background-size:cover;
+	border:15px solid white;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+}
+
+.ExcursionBcn{
+	background-image: url(sagrada.jpg);
+	background-size:cover;
+	border:15px solid white;
+	padding-top:50px;
+	padding-bottom:50px;
+	
+	}
+
+
+footer{
+
+	background-color:white;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-family:sans-serif;
+
+}
+
+footer h2, h3, p{
+	margin-bottom:20px;
+	color:darkblue;
+	
+
+}
+
+footer h6{
+	text-align:center;
+	margin-top:15px;
+	color:darkblue;
+
+}
+
+
+.containerfooter{
+	display:grid;
+	grid-template-columns: 2fr 1fr 2fr 1fr;
+	margin-left:auto;
+	margin-right:auto;
+	width:90%;
+	grid-gap:30px;
+
+
+}
+
+
+.blog p{
+
+
+	margin-bottom:5px;
+
+}
+
+
+
+
+
+.fa-instagram{
+	font-size:25px;
+	color:darkcyan;
+}
+
+.fa-location-dot{
+font-size:25px;
+color:darkcyan;}
+
+.fa-facebook{
+font-size:25px;
+color:darkcyan;}
+
+.connectlist{
+	list-style:none;
+	display:flex;
+	gap:15px;
+	text-align: center;
+
+
+}
+
+
+
+@media only screen and (max-width:900px){
+
+
+
+.page-header{
+
+      padding-top:40;
+	padding-bottom:80;}
+
+
+.bigdestinations{
+padding-bottom:90px;
+}
+
+.destinations2{
+padding:100px;
+}
+
+.Excursions p{
+	font-size:15px;
+
+}
+
+
+.Excursions h2{
+	font-size:20px;
+
+}
+
+.parentExcursions{
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:10px;
+
+}
+
+.ExcursionBcn{
+	padding-top:200px;
+	padding-bottom:200px;
+
+}
+
+.ExcursionCorfu{
+
+		padding-top:200px;
+		padding-bottom:200px;}
+
+.parent{
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:10px;
+
+}
+
+.parent1{
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap:10px;
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width:600px){
+
+
+	.logo-holder img{
+		width:85px;}
+
+
+.page-header{
+
+      padding-top:20;
+	padding-bottom:80;}
+
+ .hamburger{
+
+ 	display:block;
+}
+
+.menu-holder{
+	display:none;
+
+}
+
+
+.bigdestinations{
+padding-bottom:90px;
+}
+
+.destinations2{
+padding:100px,0;
+}
+
+.Excursions p{
+	font-size:13px;
+
+}
+
+
+.Excursions h2{
+	font-size:16px;
+
+}
+
+.parentExcursions{
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:10px;
+
+}
+
+
+
+.ExcursionBcn{
+	padding-top:200px;
+	padding-bottom:200px;
+
+}
+
+.ExcursionCorfu{
+
+	padding-top:200px;
+	padding-bottom:200px;}
+
+
+
+.parent{
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:10px;
+
+}
+
+.parent1{
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap:10px;
+
+}
+
+.containerfooter{
+	display:grid;
+	grid-template-columns: repeat(1, 1fr);
+
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
